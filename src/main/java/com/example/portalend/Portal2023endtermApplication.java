@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Portal2023endtermApplication {
 
     public static void main(String[] args) {
+        PageController pageController = new PageController();
         SpringApplication.run(Portal2023endtermApplication.class, args);
     }
 
